@@ -1,0 +1,444 @@
+@font-face {
+    font-family: "Exo2";
+    src: url(Exo2-Regular.ttf) ;
+}
+@font-face {
+    font-family: "Formula1";
+    src: url(Formula1_Display_Regular.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Exo2";
+    color: rgb(51, 48, 48);
+}
+body{
+    background-color: #f4f4f4;
+
+}
+nav{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    align-items: center;    
+}
+nav>img{
+    display: inline-block;
+    margin-left: 12%;
+    margin-right: 2%;
+}
+nav>h1{
+    display: inline-block;
+    font-size: 3em;
+    margin-right: 25%;
+    font-family: "Formula1";
+}
+nav>div{
+    width: 40%;
+}
+nav>div>a{
+    margin-right: 3%;
+    text-decoration: none;
+    color: black;
+}
+nav>div>a:hover{
+    color: rgb(5, 143, 83);
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(5.png);
+    background-size: cover;
+}
+header>h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 2%;
+    font-weight: bolder;
+}
+header>img{
+    display: flex;
+    justify-content: center;
+}
+header>div{
+    text-align: center;
+}
+#aboutus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#aboutus>img{
+    margin-right: 5%;
+}
+#abouttxt{
+    margin-left: 5%;
+}
+#aboutus>#abouttxt>h2{
+    margin-bottom: 2%;
+}
+#aboutus>#abouttxt>p{
+    line-height: 30px;
+}
+#about{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+}
+#abouttxt{
+    width: 45%;
+}
+#types{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#typesdescription{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.direction{
+    padding: 0% 10% 0% 10%;
+    width: 45%;
+}
+.direction>a{
+    text-decoration: none;
+    line-height: 25px;
+}
+.direction>a:hover{
+    color: rgb(5, 143, 83);
+}
+#typesedu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#dirwborder{
+    border-right: 1px solid black;
+    text-align: right;
+}
+#description{
+    width: 45%;
+    line-height: 30px;
+    margin-left: 5%;
+}
+#description>span{
+
+}
+#Coursepc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.teachers{
+    width: 27%;
+    text-align: center;
+}
+.teachers>img{
+    
+}
+#teachers{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.teachers>p>a{
+    text-decoration: none;
+    color: rgb(63, 50, 80);
+}
+.teachers>p>a:hover{
+    color: rgb(5, 143, 83);
+}
+.teachers>h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#threeteachers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left{
+    margin-left: 5%;
+}
+#right{
+    margin-right: 5%;
+}
+#gradepeople{
+
+}
+#gradepeople{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#gradedescription{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.grade{
+    width: 27%;
+    text-align: center;
+}
+#threegrades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#leftgrade{
+    margin-left: 5%;
+}
+#rightgrade{
+    margin-right: 5%;
+}
+.grade>h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#galleryandsymbol{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#symbol{
+    width: 45%;
+    text-align: center;
+}
+#gallery{
+    width: 55%;
+    overflow-x: scroll;
+    display: flex;
+    height: 517px;
+    margin-right: 2%;
+    text-align: center;
+    margin-left: 5%;
+}
+#gallery>img{
+    width: 750px;
+    height: 500px;
+    margin-right: 2%;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    color: white;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#info{
+    width: 25%;
+    line-height: 30px;
+    margin-left: 4%;
+}
+#info>p,u{
+    color: white;
+}
+#info>p>a{
+    text-decoration: none;
+    color: #7d7d7d;
+}
+#info>p>a:hover{
+    color: white;
+}
+#networks{
+    width: 25%;
+}
+#imgfooter{
+    width: 25%;
+    margin-left: 7%;
+}
+footer>#networks>a{
+    color: #7d7d7d;
+    width: 30px;
+    height: 30px;
+}
+#networks>a:hover{
+    color: white;
+}
+#facebook{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#facebook:hover{
+    color: white;
+}
+#vk{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#vk:hover{
+    color: white;
+}
+#youtube{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#youtube:hover{
+    color: white;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    color: #7d7d7d;
+}
+#insta:hover{
+    color: white;
+}
+#contactus{
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 30px;
+}
+#regestration{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+#registrationform>button{
+    width: 300px;
+    height: 60px;
+    background-color: #0e5346;
+    color: white;
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin-top: 70px;
+}
+#registrationform>button:hover{
+    border: 4px solid #0e5346;
+    background-color: #f4f4f4;
+    color: #0e5346;
+}
+#registrationform>*{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f4f4f4;
+}
+#registrationform{
+    text-align: center;
+}
+#email{
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+#phone{
+    margin-right: 20px;
+}
+#contactus{
+    margin-left: 25%;
+}
+
+@media(max-width:720px){
+    nav{
+        width: 100%;
+        flex-direction: column;
+        height: 20vh;
+        text-align: center;
+        line-height: 25px;
+        font-weight: bolder;
+        margin-bottom: 200px;
+    }
+    nav>h1{
+        margin-left: 130px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    header{
+        background-image: url(5.png);
+        width: 100%;
+        background-size: cover;
+        height: 110vh;
+    }
+    header>h1{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #aboutus{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    #aboutus>#abouttxt>p{
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    #threeteachers{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin-right: 300px;
+    }
+    #galleryandsymbol{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    #gallery{
+        width: 500px;
+    }
+    #symbol{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin-right: 300px;
+        margin-bottom: 200px;
+    }
+    #threegrades{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    #contactus{
+       width: 50%;
+       margin-bottom: 300px;
+    }
+    footer{
+        height: 60vh;
+    }
+    #imgfooter{
+        width: 150px;
+    }
+    #info{
+        width: 70%;
+    }
+    #teachers>h2,p{
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+    #threegrades{
+        margin-right: 250px;
+    }
+    #gradedescription{
+        margin-right: 80px;
+    }
+    #Coursepc>img{
+        width: 300px;
+        vertical-align: top;
+    }
+}
+
+
+
+
+
+
